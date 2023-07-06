@@ -1,3 +1,5 @@
+# Covid Data Queries & Dashboard
+
 For this project, a csv file with up-to-date covid data was downloaded then split into two csv files called 'CovidDeaths' and 'CovidVaccinations'.
 It was easier to examine the csv files after reducing the number of columns viewed at a time, and the data was briefly scanned for consistency and data type. 
 I turned on filters to see what options were available for columns "continent" and "location", and found that empty cells in "continent" existed for rows in "location" that weren't always locations. 
