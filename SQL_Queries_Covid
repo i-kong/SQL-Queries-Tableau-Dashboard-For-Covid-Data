@@ -88,7 +88,7 @@ from PopvsVac
 
 
 -- Create a new table PercentPopVaccd and basically creates the same view as the previous query.
--- The newly created table is not temperary, and still exists after all select queries.
+-- The newly created table is temperary, and will cease to exist when the session ends.
 drop table if exists #PercentPopVaccd
 create table #PercentPopVaccd
 (
