@@ -6,7 +6,7 @@ All rows with a specified continent had a country in the "location" column, howe
 The two csv files were then imported to an MSQL database and stored in a project portfolio schema.
 In the first time I imported the files, the input fields/output fields were left at default; varchar for "continent" and "location", and nvarchar for numerical fields like "total_tests".
 However, nvarchar was not a datatype that allowed math calculations to be performed on them so the CAST function was used in one of the queries. 
-I later re-imported the csv files and changed the numerical field datatypes to int, longint, or float, depending on what kind of numbers were in the columns.
+I later re-imported the csv files and edited the input/output field datatypes for numerical values to int, bigint, or float, depending on what kind of numbers were in the columns.
 
 See SQL_Queries_Covid for details on what information was queried.
 
